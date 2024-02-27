@@ -1,17 +1,21 @@
+
 body {
     font-family: Arial,  sans-serif; 
+    text-decoration: wavy;
     font-size: 20px; 
     background-color: #0cb57f; 
     text-decoration-color: chocolate 
 }
 h1 {
     color: rgb(20, 19, 12); 
+    text-decoration: wavy;
     font-size: 50px; 
     font-family: Georgia, serif, ; 
     background-color:rgb(235, 67, 67);
 }
 h2 {
     color:rgb(5, 5, 5);
+    text-decoration: wavy;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(227, 74, 63);
@@ -19,6 +23,7 @@ h2 {
 }
 li {
     color:rgb(13, 13, 13);
+    text-decoration: wavy;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     background-color: rgb(211, 79, 237)
@@ -26,10 +31,8 @@ li {
 p {
    color:black;
    font-size:50px;
+   text-decoration: wavy;
    font-family:'Times New Roman', Times, serif;
    background-color: red;
    border:violet
-}
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    background-color: rgb(211, 79, 237)
 }
