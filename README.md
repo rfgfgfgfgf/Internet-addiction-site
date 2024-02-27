@@ -1,2 +1,2 @@
-# My-biography-site
-My first own site
+# **INTERNET ADDICTION**
+This site will help you to prevent you from internet habit)
