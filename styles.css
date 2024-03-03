@@ -1,38 +1,74 @@
+head {
+    color:whitesmoke;
+
+    }
 
 body {
-    font-family: Arial,  sans-serif; 
-    text-decoration: wavy;
+    font-family: bold, Helvetica, sans-serif; 
+    text-decoration: inherit;
     font-size: 20px; 
-    background-color: #0cb57f; 
-    text-decoration-color: chocolate 
+    background-color: #000000; 
 }
-h1 {
-    color: rgb(20, 19, 12); 
-    text-decoration: wavy;
-    font-size: 50px; 
-    font-family: Georgia, serif, ; 
-    background-color:rgb(235, 67, 67);
-}
-h2 {
-    color:rgb(5, 5, 5);
-    text-decoration: wavy;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(227, 74, 63);
-    border:rgb(132, 35, 222);
-}
+    @keyframes color-change {
+        0% {
+          color: rgb(255, 199, 79);
+        }
+      
+        50% {
+          color: rgb(0, 255, 55);
+        }
+      
+        70% {
+          color: rgb(255, 0, 179);
+        }
+        100% {
+          color:rgb(157, 6, 238)
+        }
+    }
+    h1 {
+        animation: color-change 2s infinite;
+        text-decoration: bold;
+        font-size: 40px; 
+        font-family: Georgia, serif, ;
+    } 
+
+    @keyframes color-change {
+        0% {
+          color: rgb(255, 199, 79);
+        }
+      
+        50% {
+          color: rgb(0, 255, 55);
+        }
+      
+        70% {
+          color: rgb(255, 0, 179);
+        }
+        100% {
+          color:rgb(157, 6, 238)
+        }
+    }
+    h2 {
+        animation: color-change 2s infinite;
+        text-decoration: bold;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border:rgb(132, 35, 222);
+    }
 li {
-    color:rgb(13, 13, 13);
-    text-decoration: wavy;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    background-color: rgb(211, 79, 237)
+    color:#07289e;
+    text-decoration: bold;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: #8de0f8;
 }
 p {
-   color:black;
-   font-size:50px;
-   text-decoration: wavy;
-   font-family:'Times New Roman', Times, serif;
-   background-color: red;
-   border:violet
+   color:#6181f2;
+   font-size:20px;
+   text-decoration: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border:#ca0ef0;
+}
+br {
+    color:#ca0ef0;
 }
